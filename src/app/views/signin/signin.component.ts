@@ -80,7 +80,7 @@ if(this.loginForm.valid){
   try{
     await this.authService.signin(loginForm);
     console.log("Connexion reussie, redirection en attente ...")
-    this.router.navigateByUrl("/");
+    this.router.navigateByUrl("/dashboard");
     this.loginForm.reset();
   }catch(e : any){
 console.log(e)

@@ -20,7 +20,7 @@ import { Component } from '@angular/core';
     padding-top:0;
     width: 100%;
     min-height: 155px;
-    background-color: var(--dark-grey);
+    background-color: var(--grey);
     color: var(--white);
   }`
 })

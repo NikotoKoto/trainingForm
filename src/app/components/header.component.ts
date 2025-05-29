@@ -19,8 +19,10 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
         <a routerLink="/signIn" routerLinkActive="active-link">Se connecter</a>
       </li>
       } @else {
-  <li><a routerLink="/signIn" routerLinkActive="active-link">Se connecter</a></li>
-}
+      <li>
+        <a routerLink="/signIn" routerLinkActive="active-link">Se connecter</a>
+      </li>
+      }
     </ul>
   `,
   styles: `
@@ -33,7 +35,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     align-items:center;
     justify-content: space-between;
     padding: var(--spacing-md);
-    
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     z-index: 10;
 
   }`,
 })
